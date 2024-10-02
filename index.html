@@ -8,11 +8,23 @@
     <title>Todo-list</title>
 </head>
 <body>
-    <div class="tasks">
+    <form id="taskForm">
+        <label for="task_title">Task title</label>
+        <input type="text" placeholder="Titre" id="task_title">
 
+        <label for="task_description">Task descrption</label>
+        <input type="text" placeholder="Check Saikou's Linkedin profile" id="task_description">
+
+        <label for="task_priority">Task priority</label>
+        <input type="text" placeholder="Important" id="task_priority">
+    </form>
+
+    <div id="tasksContainer">
+        
     </div>
     
     <button id="newTaskButton">New task</button>
+
     <script src="main.js"></script>
 </body>
 </html>
